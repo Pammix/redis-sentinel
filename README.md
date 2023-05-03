@@ -1,3 +1,5 @@
+#Redis Sentinel Setup
+
 If you need to test your system with High-availability Redis Sentinels, you need to setup sentinels locally.
 
 This repo provide simple script and step to set it up.
