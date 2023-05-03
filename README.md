@@ -4,11 +4,11 @@ If you need to test your system with High-availability Redis Sentinels, you need
 
 This repo provide simple script and step to set it up.
 
-Steps
+## Steps
 
-## Install Redis. 
+#### Install Redis. 
 For Mac OS I recommend *brew install redis*
-## Run start.sh
+#### Run start.sh
 Detail explanation of the setup
 
 In this setup, we have *3 Redis instances*
