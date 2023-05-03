@@ -1,4 +1,4 @@
-#Redis Sentinel Setup
+# Redis Sentinel Setup
 
 If you need to test your system with High-availability Redis Sentinels, you need to setup sentinels locally.
 
@@ -6,14 +6,17 @@ This repo provide simple script and step to set it up.
 
 Steps
 
-Install Redis. For Mac OS I recommend brew install redis
-Run start.sh
+## Install Redis. 
+For Mac OS I recommend *brew install redis*
+## Run start.sh
 Detail explanation of the setup
-In this setup, we have 3 Redis instances
 
-Master Redis at port 6380
-Slave Redis at port 6379
-Redis Sentinels at port 26379
+In this setup, we have *3 Redis instances*
+
+* Master Redis at port *6380*
+* Slave Redis at port *6379*
+* Redis Sentinels at port *26379*
+
 The slave Redis is a replicate of Master redis. It's act as a fallback Redis.
 
 Now if you use any driver and connect to sentinels at 26379, now you have High-availability setup for Redis.
